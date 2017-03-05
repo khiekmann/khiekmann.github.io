@@ -33,13 +33,13 @@ Meine Quelle ist [Research Gate](https://www.researchgate.net/publication/265403
 
 Zu meinem Hintergrund
 ---------------------
-Ich bin Dipl.-Wirtschaftsinformatiker und arbeite seit einem Jahr als Softwaretester. Ich kenne den Autoren weder direkt noch indirekt, auch keinem nicht persönlich, auch keinen aus den "References". Nicht einmal McCabe, dessen Metrik mir nur als zyklomatische Komplexität bekannt war.
+Ich bin Dipl.-Wirtschaftsinformatiker und arbeite seit einem Jahr als Softwaretester. Ich kenne den Autoren weder direkt noch indirekt, auch keinen aus den "References". Nicht einmal McCabe, dessen Metrik mir nur als "zyklomatische Komplexität" bekannt war.
 Ich bin auf diese Arbeit gestoßen, weil ich im aktuellen Projekt SonarQube aufsetze und lokal für den teamweiten Gebrauch teste. SonarQube merkte im SAP Hybris 6.2 Code mehrfach einen zu hohen Wert für "Cognitive Complexity" an. Da ich diese Metrik noch nicht kannte, ~~duckduckgo-te~~ suchte ich kurzerhand und fand dieses Paper.
 
 Bewertung des Papers
 ====================
 
-Ich habe das Paper zuerst von hinten gelesen, dann punktuell und dann einmal von Anfang bis Ende. Beim letzten Durchgang habe ich die Referenzen gelesen, aber nicht nachgeprüft. Der Prozess dauerte vier Stunden.
+Ich habe das Paper zuerst von hinten gelesen, dann punktuell und dann einmal von Anfang bis Ende. Beim letzten Durchgang habe ich die Referenzeinträge gelesen, aber nicht nachgeprüft. Der Prozess dauerte vier Stunden.
 
 Formell
 -------
@@ -58,11 +58,11 @@ Das Ausklammern eines ausführlichen Beispiels bedarf meiner Meinung nicht die B
 Inhalt
 ------
 
-Der Autor führt sehr gut in das Thema ein, indem er in der Einleitung die beiden bisherigen Metriken und ihre Geschichte darstellt. Erstere ist eine räumliche Betrachtung, die Entfernung von Definition und Verwendung von Variablen, Methoden, Klassen und Modulen mit Komplexität gleichsetzt: Code Spatial Complexity (CSC. Die andere Herangehensweise ist die Anforderung an die menschliche Fähigkeit in Kontrollflüssen denken zu können. Diese psychologische Anforderung an den Menschen ist umso höher umso komplexer die verwendeten Kontrollflussstrukturen, Input- und Outputparameter sind: Code Functional Size (CFS).
+Der Autor führt sehr gut in das Thema ein, indem er in der Einleitung die beiden bisherigen Metriken und ihre Geschichte darstellt. Erstere ist eine räumliche Betrachtung, die Entfernung von Definition und Verwendung von Variablen, Methoden, Klassen und Modulen mit Komplexität gleichsetzt: Code Spatial Complexity (CSC). Die andere Herangehensweise ist die Anforderung an die menschliche Fähigkeit in Kontrollflüssen denken zu können. Diese psychologische Anforderung an den Menschen ist umso höher umso komplexer die verwendeten Kontrollflussstrukturen, Input- und Outputparameter sind: Code Functional Size (CFS).
 
 Das Ziel des Papers ist, eine neue Metrik "Code Cognitive Complexity" (CCC) vorzustellen. Sie vereint die Vorteile der CSC-Metrik mit der CFS-Metrik, indem sie beide Werte addiert.
 
-Die CCC ist der arithmetische Durchschnitt alle Module Cognitive Complexity (MCC) Berechnungen, die "Kognitive Komplexität" wird also modulweise berechnet und zwar wird die räumliche Entfernung der kognitiven Gewichtung auf addiert. Die Formel, ihre Terme, Variabeln und Indizes werden ausführlich erklärt.
+Die CCC ist der arithmetische Durchschnitt allee Module Cognitive Complexity (MCC) -Berechnungen.  Die "Kognitive Komplexität" wird also modulweise berechnet und zwar wird auf die räumliche Entfernung von Kontrollflussgewichtungen die kognitiven Gewichtung von Parametern addiert. Die Formel, ihre Terme, Variabeln und Indizes werden ausführlich erklärt.
 
 In einem Anwendungsbeispiel wird dargestellt, dass CCC in der Bewertung von Komplexität gegenüber "Lines of Code" und den anderen Metriken besser performt. Hier wird auch festgestellt, dass CCC sich auch bei der Implementation des selben Algorithmus in verschiedenen Sprachen einen anderen Wert enthält. Was auf die Bewertung von kognitiver Komplexität und nicht algorithmischer Komplexität zurückzuführen sei.
 
@@ -74,11 +74,11 @@ Um die Vorteile beider Metriken zu erhalten, ist es fraglich, ob eine schlichte 
 
 Das arithmetische Mittel untergewichtet das eine Modul, welches eine hohe Codekomplexität hat. Neben dem MCC oder CCC ist nun eine Aussage über Median und Ausreißer notwendig um zu erfassen, wie sich der Code darstellt.
 
-Nicht ausreichend belegt ist, zumindest für einen Außenstehenden,  Tabelle 1 "Cognitive Weihts of All Members needing Integration with Spatial Distance". Hier wird die "Basic Control Structures" aufgelistet und mit einem kognitivem Gewicht belegt. Ein "if then else" hat das Gewicht 2 und verschachtelte Iterationen eine 4. Es ist nicht klar, wie die Gewichtungen zueinanderstehen: ordinal oder relativ. Unter der Annahme, dass diese relativ zueinander stehen, wie es ihre Verwendung in der MCC-Formel Nahe legt, fehlt zumindest eine Referenz, wie auf diese Gewichtungen geschlossen wurde.
+Nicht ausreichend belegt ist, zumindest für einen Außenstehenden,  Tabelle 1 "Cognitive Weights of All Members needing Integration with Spatial Distance". Hier werden die "Basic Control Structures" (Kontrollflussstrukturen) aufgelistet und mit einem kognitivem Gewicht belegt. Ein "if then else" hat das Gewicht 2 und verschachtelte Iterationen eine 4. Es ist nicht klar, wie die Gewichtungen zueinanderstehen: ordinal oder relativ. Unter der Annahme, dass diese relativ zueinander stehen, wie es ihre Verwendung in der MCC-Formel Nahe legt, fehlt zumindest eine Referenz, wie auf diese Gewichtungen geschlossen wurde.
 
-Ebenfalls ohne Beleg ist die Aussage "But it is well established fact that code plays more important role than data complexity or procedure-oriented software", auch vor dem Hintergrund, dass CCC für anders orientierte Software Aussagen über Komplexität treffen soll.
+Ebenfalls ohne Beleg ist die Aussage "But it is well established fact that code plays more important role than data complexity or procedure-oriented software", auch vor dem Hintergrund, dass CCC für anders-orientierte Software Aussagen über Komplexität treffen soll.
 
-Am Ende Abschnitt III wird die Formel zur Berechnung der Distanz-Komplexität eines bestimmten Aufrufs in einem Modul dargestellt. Hier bei fällt auf, dass der letzte Summand vereinfacht werden kann: 0.1 * x / 2 = x / 20 . Die Werte 0.1 und 20 werden einfach mit Referenz 13, welches eine Eigenreferenz ist und mit eigenen Erfahrungswerten. Generell stellt dieser Distanzwert die Komplexität dar, die Definition einer Variable, Methode, Klasse oder eines Moduls innerhalb des Softwareprojektes zu finden.
+Am Ende Abschnitt III wird die Formel zur Berechnung der Distanz-Komplexität eines bestimmten Aufrufs in einem Modul dargestellt. Hier bei fällt auf, dass der letzte Summand vereinfacht werden kann: 0.1 * x / 2 = x / 20 . Die Werte 0.1 und 20 werden einfach mit Referenz 13, welches eine Eigenreferenz ist, und mit eigenen Erfahrungswerten belegt. Generell stellt dieser Distanzwert die Komplexität eines bestimmten Aufrufs einer Variable, Methode, Klasse oder eines Moduls dar.
 
 Moderne IDE vereinfachen die Suche von Definition und Verwendung derart, dass die räumliche Entfernung keine Rolle mehr spielt - wenn man seine IDE kennt. Darüber hinaus entfällt die notwendige Suche nach dem Definitionsort und dem Lesen der dortigen Kommentare, wenn sprechende Variable-, Methoden-, Klassen- und Modulnamen verwendet wurden. Diese Komplexitätsmaß wurde 1999 von Douce et al. vorgetragen und hat für das Ziel des aktuellen Papers vermutlich an Bedeutung verloren.
 
@@ -107,4 +107,6 @@ Das nächste Paper
 Es wird eine bemerkenswerte Aussage über Referenz 8 "Chabra JK, Aggarwal KK, Sing, 2003, Code & Data Spatial Complexity: Two Important Software Understanability MEasures, Information and Software Technology, vol 45, no 8, pp. 539-546" getroffen: "This concept of spatial ability was further extended and strengthened by the authors in [8] in form of code and data spatial complexity, and both of these measures were found to be strongly correlated with the perfective maintance activities." Da dies eine Selbstreferenz ist und der vorliegende Artikel sich darauf stützt, wäre eine Prüfung der Ergebnisse der Referenz 8 interessant.
 
 Wenn es um CleanCode geht, dann ist die Verständlichkeit des geschriebenen Codes ein wichtiger Aspekt. Vielleicht schafft es ein anderes Paper, welches bei SonarQube gehostet wird, mich von der Aussagekraft von Metriken zu überzeugen: ["COGNITIVE COMPLEXITY A new way of measuring understandability" by G. Ann Campbell](https://www.sonarsource.com/docs/CognitiveComplexity.pdf) zu überzeugen
+
+Oder du schickst mir eine Paper-Empfehlung: khiekmann+liesmaldaspaper@nanooq.org
 
