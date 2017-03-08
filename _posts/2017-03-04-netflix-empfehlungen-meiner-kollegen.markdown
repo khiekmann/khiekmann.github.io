@@ -10,9 +10,9 @@ Ich habe mir aus Neugierde ein Netflix-Account geklickt. Ich zahle also monatlic
 Peers
 =====
 Es hat nicht lange gedauert, da habe ich meine Peers gebeten, die Inhalte von Netflix vorzufiltern, ich habe sie also um Empfehlungen gebeten. 
-Bisher haben mich beraten: 
-* Antonio (http://niorad.com/)
-* Tilmann (Irgendwo auf Tumblr)
+Bisher haben mich beraten:
+* [Antonio](http://niorad.com/)
+* [Tilmann](http://storiosities.tumblr.com)
 * Du? (E-Mail an khiekmann+netflixempfehlung@nanooq.org)
 
 Empfehlungen
