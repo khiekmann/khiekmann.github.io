@@ -49,10 +49,12 @@ und ich kann dann mit sprechendem Methodennamen erklären, dass noch der Separat
 ```
 	private void throwExceptionIfDevisorIsContainedIn(int number) throws SpecialResponseException
 	{...
-			int digit = Character.getNumericValue(strNumber.charAt(i));
+            digit = strNumber.charAt(i); // fail!
+			digit = Character.getNumericValue(strNumber.charAt(i));
 			if (digit == divisor) {...
 ...}
 ```
+Die Methode hat allerdings mein letztes Refactoring nicht überstanden, siehe nächster Punkt.
 * Ich versuche Methoden höchstens 3 Zeilen lang zu machen. Das führt zu sehr vielen Methoden. Die Anzahl der Methoden ist allerdings wieder ein guter Hinweis auf Designoptimierung. Außerdem kann ich jeden Methodennamen sprechend gestalten und damit benötige ich keine toten Kommentare.
 
 Funde
