@@ -5,7 +5,7 @@ date:   2017-03-12 13:37:42 +0100
 categories: Gedanken Cata FizzBuzz
 ---
 
-Meinen Code zu dem hier besprochenen Cata, befindet sich in meinem [Cata-Repository](https://github.com/khiekmann/catas). Es gibt viele kleinschrittige Commits, die jeden Schritt erklären. Ich habe versucht mich an "red - green - refactor" entlang zu arbeiten.
+Mein Code zu dem hier besprochenen Cata befindet sich in meinem [Cata-Repository](https://github.com/khiekmann/catas). Es gibt viele kleinschrittige Commits, die jeden Schritt erklären. Ich habe versucht mich an "red - green - refactor" entlang zu arbeiten.
 
 Was ist ein Cata, ein FizzBuzz und meine Motivation?
 ====================================================
@@ -16,7 +16,7 @@ Das [Cata FizzBuzz](http://ccd-school.de/coding-dojo/function-katas/fizzbuzz/) i
 * Wenn das Vielfache von 3 gegeben ist, wird "Fizz" zurück gegeben werden.
 * Wenn das Vielfache von 5 gegeben ist, soll "Buzz" zurück gegeben werden.
 
-Ich versuche jeden Monat mindestens ein Cata durchzuspielen. Dieses Mal das Cata FizzBuzz. Ich hielt es für einfacher, aber es gibt ein paar Fallstricke. Es gab allerdings nichts Weltbewegendes in diesem Cata, weshalb dieser Artikel etwas langweilig sein kann. Dann wiederum ist selber cata-n eh immer interessanter. 
+Ich versuche jeden Monat mindestens ein Cata durchzuspielen. Dieses Mal das Cata FizzBuzz. Ich hielt es für einfacher, aber es gibt ein paar Fallstricke. Es gab allerdings nichts Weltbewegendes in diesem Cata, weshalb dieser Artikel etwas langweilig sein kann. Dann wiederum ist selber cata-n eh immer interessanter.
 
 Gedanken
 ========
@@ -45,7 +45,7 @@ und ich kann dann mit sprechendem Methodennamen erklären, dass noch der Separat
 		response += separator;
 	}
 ```
-* [8f4e3d0](https://github.com/khiekmann/catas/commit/8f4e3d0034e9a54a5bda15ee11dd42a236c79ba5) beinhaltet eine weitere Java-Stolperfalle, in die ich natürlich sofort reingelaufen bin: Integer vs. Charakter Conversion. In der Variation muss jedes Digit der übergebenen Zahl geprüft werden, ob es gleich dem Divisor ist. Das Fehlverhalten meines Codes ist durch meinen Testcode sofort aufgefallen - immerhin. 
+* [8f4e3d0](https://github.com/khiekmann/catas/commit/8f4e3d0034e9a54a5bda15ee11dd42a236c79ba5) beinhaltet eine weitere Java-Stolperfalle, in die ich natürlich sofort reingelaufen bin: Integer vs. Charakter Conversion. In der Variation muss jedes Digit der übergebenen Zahl geprüft werden, ob es gleich dem Divisor ist. Das Fehlverhalten meines Codes ist durch meinen Testcode sofort aufgefallen - immerhin.
 ```
 	private void throwExceptionIfDevisorIsContainedIn(int number) throws SpecialResponseException
 	{...
@@ -53,12 +53,13 @@ und ich kann dann mit sprechendem Methodennamen erklären, dass noch der Separat
 			if (digit == divisor) {...
 ...}
 ```
+* Ich versuche Methoden höchstens 3 Zeilen lang zu machen. Das führt zu sehr vielen Methoden. Die Anzahl der Methoden ist allerdings wieder ein guter Hinweis auf Designoptimierung. Außerdem kann ich jeden Methodennamen sprechend gestalten und damit benötige ich keine toten Kommentare.
 
 Funde
 =====
 
 Wenn du ein interessantes Cata für mich hast, schick mir eine E-Mail an khiekmann+versuchmaldiesescata@nanooq.org.
 
-Ich klickte wild auf der Cata-Seite herum und fand diese Links: 
+Ich klickte wild auf der Cata-Seite herum und fand diese Links:
 * [Ich verspreche](http://ich-verspreche.org/): Eine deutsch-sprachiger CleanCode-Gruppe, von der ich Ralf Westphal erkenne, weil er ein Buch geschrieben hat, das ich hier liegen habe.
 * [Verschiedene Grade des CleanCoders](clean-code-developer.de): Es gibt wohl Gummibänder, die nach außen hin darstellen, in welches Phase der Reise nach sauberem Code man gerade ist.
