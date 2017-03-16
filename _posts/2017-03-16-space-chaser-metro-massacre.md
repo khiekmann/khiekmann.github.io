@@ -7,7 +7,7 @@ categories: metal space chaser metro massacre lyrics
 
 Als ich in die Mittelstufe ging, weckte mein Bruder morgens die Nachbarschaft mit "Heavy Metal". Konkret erinnere ich mich an "Give me fuel, give me fire, give me that what I desire". Später drifteten wir beide eher in Richtung Hiphop.
 
-Jahrzehnte später bin ich über meine Freundin der lokalen Heavy Metal Szene vorgestellt worden. Letztes Jahr trat in _der_ Heavy Metal Lokalität meines Heimatorts schlechthin die Band "(Space)[https://de.wikipedia.org/wiki/Space_Chaser] (Chaser)[https://spacechaser.bandcamp.com/]" auf. Sie spielen Thrash Metal und ich mag das sehr.
+Jahrzehnte später bin ich über meine Freundin der lokalen Heavy Metal Szene vorgestellt worden. Letztes Jahr trat in _der_ Heavy Metal Lokalität meines Heimatorts schlechthin die Band "[Space](https://de.wikipedia.org/wiki/Space_Chaser) [Chaser](https://spacechaser.bandcamp.com/)" auf. Sie spielen Thrash Metal und ich mag das sehr.
 
 Lyrics zu "Metro Massacre" auf dem Album "Dead Sun Rising"
 ==========================================================
