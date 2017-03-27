@@ -6,9 +6,9 @@ permalink: /about/
 
 Meine Name lautet Karsten Hiekmann. Bis zum 30.06. arbeite ich als Softwaretester für [andagon.com](https://andagon.com). Die Artikel dieses Blogs sollten immer auch etwas mit "Software testen" zu tun haben. Alle spiegeln meine Weltanschauung wider, nicht die von Anderen. 
 
-Hier ist mein PGP-Schlüssel für das Jahr 2017
----------------------------------------------
-
+PGP-Key 2017
+---------------------------------
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1
 
@@ -61,3 +61,4 @@ JNmX6Gtg9lAA04/1560VtM7XfzvZ+3NraawOt5Awe/gmxM8zCIDq57NZ5K1sA5Eq
 IlTjhI5cLg9AlUAppYPLbfEw9ZGFpd6nxf8MIC4=
 =M9NV
 -----END PGP PUBLIC KEY BLOCK-----
+```
