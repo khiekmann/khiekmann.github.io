@@ -4,4 +4,60 @@ title: Über
 permalink: /about/
 ---
 
-Meine Name lautet Karsten Hiekmann. Ich arbeite als Softwaretester für [andagon.com](https://andagon.com). Die Artikel dieses Blogs sollten immer auch etwas mit "Software testen" zu tun haben. Alle spiegeln meine Weltanschauung wider, nicht die von Anderen. 
+Meine Name lautet Karsten Hiekmann. Bis zum 30.06. arbeite ich als Softwaretester für [andagon.com](https://andagon.com). Die Artikel dieses Blogs sollten immer auch etwas mit "Software testen" zu tun haben. Alle spiegeln meine Weltanschauung wider, nicht die von Anderen. 
+
+Hier ist mein PGP-Schlüssel für das Jahr 2017
+---------------------------------------------
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+
+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
+=M9NV
+-----END PGP PUBLIC KEY BLOCK-----
