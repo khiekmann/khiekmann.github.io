@@ -13,22 +13,23 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: WTF's per line
-email: khiekmannblog@nanooq.org
+title: WTFs per line
+email: khiekmannblog@fnordbedarf.de
 description: > # this means to ignore newlines until "baseurl:"
   Karsten Hiekmann über Software Testing, Test-Automatisierung, Quality 
   Assurance, Agile Testing, TDD und Scrum im weiteren Sinne.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: khiekmann
 github_username:  khiekmann
-linkedin_username: khiekmann
-xing_username : Karsten_Hiekmann
 gulp_username: ProfilNochNichtFreigegeben
+linkedin_username: khiekmann
+twitter_username: khiekmann
+xing_username : Karsten_Hiekmann
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+theme: khiekmann.github.io.layout
 gems:
   - jekyll-feed
 exclude:
