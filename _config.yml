@@ -28,8 +28,8 @@ xing_username : Karsten_Hiekmann
 
 # Build settings
 markdown: kramdown
-#theme: minima
-theme: khiekmann-github-io-layout
+theme: minima
+#theme: khiekmann-github-io-layout # 2017-04-10 later when not blogging on github
 gems:
   - jekyll-feed
 exclude:
