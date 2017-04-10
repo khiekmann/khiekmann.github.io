@@ -24,7 +24,7 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
-    khiekmann-github-io-layout (0.1.2)
+    khiekmann-github-io-layout (0.1.5)
       jekyll (~> 3.4)
     kramdown (1.13.2)
     liquid (3.0.6)
@@ -54,7 +54,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.4.0)
   jekyll-feed (~> 0.6)
-  khiekmann-github-io-layout (~> 0.1.2)
+  khiekmann-github-io-layout (~> 0.1.5)
   tzinfo-data
 
 RUBY VERSION
