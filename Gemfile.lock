@@ -5,6 +5,7 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
     ffi (1.9.18)
+    ffi (1.9.18-x64-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.4.0)
       addressable (~> 2.4)
@@ -23,14 +24,14 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
+    khiekmann-github-io-layout (0.1.1)
+      jekyll (~> 3.4)
     kramdown (1.13.2)
     liquid (3.0.6)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    minima (2.1.0)
-      jekyll (~> 3.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -47,12 +48,13 @@ GEM
       tzinfo (>= 1.0.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
   jekyll (= 3.4.0)
   jekyll-feed (~> 0.6)
-  minima (~> 2.0)
+  khiekmann-github-io-layout (~> 0.1.1)
   tzinfo-data
 
 RUBY VERSION
