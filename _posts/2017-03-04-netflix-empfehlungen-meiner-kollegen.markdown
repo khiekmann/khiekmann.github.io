@@ -5,20 +5,20 @@ date:   2017-03-04 13:37:00 +0100
 categories: Netflix Empfehlungen AntonioRadovcic TilmannBartels
 ---
 
-Ich habe mir aus Neugierde ein Netflix-Account geklickt. Ich zahle also monatlich Geld und bekomme Fernsehen auf's Smartphone, auf Notebooks - you name it. Das Prinzip kommt mir bekannt vor - und in der Tat finde ich dort auch Sendungen, die ich mit meinem "Rundfunkbeitrag" schon einmal bezahlt habe. Leider unterliegen die auch bei Netflix dem [Depublizieren](https://de.wikipedia.org/wiki/Depublizieren) (Stichwort:  Rundfunkstaatsvertrag. Verantwortlich: [Dein Landesparlament](https://www.abgeordnetenwatch.de/) ). Ich will mich auch gar nicht darüber aufregen, dass Radio mittlerweile digital übertragen wird.
+Ich habe mir aus Neugierde ein Netflix-Account geklickt. Ich zahle also monatlich Geld und bekomme Fernsehen auf Smartphones, auf Notebooks - you name it. Das Prinzip kommt mir bekannt vor - und in der Tat finde ich dort auch Sendungen, die ich mit meinem "Rundfunkbeitrag" eigentlich schon einmal bezahlt habe. Leider unterliegen die auch bei Netflix dem [Depublizieren](https://de.wikipedia.org/wiki/Depublizieren) (Stichwort:  Rundfunkstaatsvertrag. Verantwortlich: [Dein Landesparlament](https://www.abgeordnetenwatch.de/) ). Ich will mich auch gar nicht darüber aufregen, dass Radio mittlerweile digital übertragen wird.
 
 Peers
 =====
-Es hat nicht lange gedauert, da habe ich meine Peers gebeten, die Inhalte von Netflix vorzufiltern, ich habe sie also um Empfehlungen gebeten. 
+Es hat nicht lange gedauert, da habe ich meine Peers gebeten, die Inhalte von Netflix vorzufiltern, ich habe sie also um Empfehlungen gebeten.
 Bisher haben mich beraten:
 * [Antonio](http://niorad.com/)
 * [Tilmann](http://storiosities.tumblr.com)
-* Du? (E-Mail an khiekmann+netflixempfehlung@nanooq.org)
+* Du? (E-Mail an netflixempfehlung@nanooq.org)
 
 Empfehlungen
 ============
 
-Mehr Empfehlungen [hier](https://khiekmann.github.io/recommendation/) hier.
+Mehr Empfehlungen [hier](https://khiekmann.github.io/recommendation/).
 
 * Design
   * Abstract
@@ -38,7 +38,7 @@ Mehr Empfehlungen [hier](https://khiekmann.github.io/recommendation/) hier.
   * Dirk Gentlys Holistische Detektei
   * Unbreakable Kimmy Schmidt
 
-Die Kategorie "Design" hatte ich vorgegeben, weil ich keine Ahnung davon habe. "Dokumentation" nährt meinen Wissensdurst und "Comedy" ist für zwischendurch. Die Empfehlungen außerhalb dieser Kategorien sind persönliche Empfehlungen. Vielleicht sagen sie mehr über meine Kollegen aus oder darüber, was sie denken, was mir gefallen könnte. Ich habe also Einiges zu schauen und ich freue mich drauf.
+Um die Kategorie "Design" hatte ich gebeten, weil ich keine Ahnung davon habe. "Dokumentation" nährt meinen Wissensdurst und "Comedy" ist für zwischendurch. Die Empfehlungen außerhalb dieser Kategorien sind persönliche Empfehlungen. Vielleicht sagen sie mehr über meine Kollegen aus oder darüber, was sie denken, was mir gefallen könnte. Ich habe also Einiges zu schauen und ich freue mich drauf.
 
 
 420
@@ -59,8 +59,8 @@ Außerdem: Interessante Menschen haben meistens interessante Empfehlungen.
 
 CleanCode
 =========
-Einen Bogen zur Softewareentwicklung in Teams: 
+Einen Bogen zur Softwareentwicklung in Teams:
 Wenn wir uns auf [sauberen Code](https://de.wikipedia.org/wiki/Clean_Code) einigen, dann ist einheitliche Benamung ein Teil davon. Meine These ist, dass ein Team mit einem gemeinsamen Vorwissen auch schneller sich auf eine gute Benamung einigen kann, besser noch diese einhält. Der Grund ist, das unterliegende Verständnis. Natürlich sind "set"- und "get"-Methoden zu trivial, als dass sie als Beispiel dienen könnten. Gerade fällt mir kein gutes Beispiel ein. Vielleicht liegt das in der Natur der Sache, wenn viel per Konvention implementiert wird und diese Konvention beim Einzelnen und in der Menge eine innere Konfiguration geworden ist, dann wird es schwierig gerade ein gutes Beispiel zu finden.
 
 Nachtrag:
-Während ich ein gutes Beispiel suchte ich mir die nächste Grenze gewahr geworden. Eine Gruppe einigt sich auf einen Stil und könnte damit in "Inside Jokes" abdriften. Es gibt halt keine [Kontext freie Sprache](https://de.wikipedia.org/wiki/Chomsky-Hierarchie).
+Während ich ein gutes Beispiel suchte, ist mir die nächste Grenze gewahr geworden. Eine Gruppe einigt sich auf einen Stil und könnte damit in "Inside Jokes" abdriften. Es gibt halt keine [Kontext freie Sprache](https://de.wikipedia.org/wiki/Chomsky-Hierarchie).

@@ -2,7 +2,7 @@
 layout: post
 title:  "Wie mache ich mich selbstständig?"
 date:   2017-03-27 13:37:42 +0100
-categories: Weiszheiten Projektleiter Scrummaster
+categories: Selbstständigkeit, Freelancer
 ---
 
 Dieser Artikel ist "work in progress"
@@ -27,7 +27,7 @@ Dieser Artikel ist "work in progress"
   * um eine Kündigungsbestätigung,
   * ein Arbeitszeugnis,
   * "Ich habe bei Ihnen viel gelernt und bedanke mich für Ihre stete Unterstützung" - auf keinen Fall Quelle von schlechter Laune werden.
-  * Bitte um Einblick in die Personalakte - das ist im Übrigen ein Recht. Zu bitten ist ein Höflichkeit. 
+  * Bitte um Einblick in die Personalakte - das ist im Übrigen ein Recht. Zu bitten ist eine Höflichkeit. 
  
  * Geschäftstelefonnummer holen
    * Eventuell notwendiges Mobiltelefon nicht vergessen. 
