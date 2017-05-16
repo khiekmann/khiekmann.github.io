@@ -8,7 +8,7 @@ categories: code quality measure cleanCode
 Motivation
 ==========
 
-Grundsätzlich lese ich gerne wissenschaftliche Artikel. Wie man das und eine peer-review korrekt macht, habe ich im Studium gelernt. Um diese Leidenschaft und Fähigkeit nicht zu verlieren, übe ich mich monatlich darin. Jetzt, da ich diesen großartigen Blog habe, will ich dies auch hier veröffentlichen.
+Grundsätzlich lese ich gerne wissenschaftliche Artikel. Wie man das und eine anschließende peer-review korrekt macht, habe ich im Studium gelernt. Um diese Leidenschaft und Fähigkeit nicht zu verlieren, übe ich mich monatlich darin. Jetzt, da ich diesen großartigen Blog habe, will ich dies auch hier veröffentlichen.
 
 Zum Hintergrund des Papers
 --------------------------
