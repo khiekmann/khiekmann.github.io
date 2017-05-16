@@ -43,3 +43,36 @@ Dieser Artikel ist "work in progress"
     * Scrum Master
     * Agile Tester
     * foo
+    
+    
+ Verzeichniss eintragen: 
+ Verzeichnis	Adresse	Website	Status
+google maps			
+foursquare			
+Google My Business			
+bing places for business			
+meinestadt.de			
+lokaleauskunft.de			
+GMX			
+WEB.DE			
+YellowMap			
+stadtbranchenbuch.com			
+unternehmensauskunft			
+ABC Local			
+Guide Local			
+Yellbo			
+Jelloo			
+freieauskunft.de			
+Business Branchenbuch			
+wogibtswas			
+Yalwa			
+Koomio			
+Infobel			
+Tupalo			
+Focus			
+Marktplatz Mittelstand			
+BundesTelefonbuch			
+Infoisinfo.com			
+Branchenbuchdeutschland.de			
+Hotfrog			
+Dialo			
